@@ -11,9 +11,10 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+
   sqflite: any
-  path_provider: any
-  intl: ^0.15.7
+  path_provider: any # for Database Path
+  intl: ^0.15.7 # for Date Formate
 
 dev_dependencies:
   flutter_test:

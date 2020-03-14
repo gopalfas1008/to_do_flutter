@@ -6,12 +6,20 @@ A Sqlite Flutter application.In this App introduce to simple CRUD operation in S
 
 This project introduce to simple CRUD operation in Sqlite.
 
-A few resources to get you started if this is your first Flutter project:
+Add this lib in pubspec.yaml 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+    
+    dependencies:
+      flutter:
+        sdk: flutter
+      cupertino_icons: ^0.1.2
+    
+      sqflite: any
+      path_provider: any   # for Database Path
+      intl: ^0.15.7   # for Date Formate 
 
-For help getting started with Flutter, view our
+  
+For help getting started with Flutter, view 
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
